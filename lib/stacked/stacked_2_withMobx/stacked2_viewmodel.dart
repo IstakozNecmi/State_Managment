@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
-import 'package:flutterhoooks/stacked/stacked_2_withMobx/stacked2_BaseViewModel.dart';
+
 import 'package:mobx/mobx.dart';
+import 'package:stateManangment/stacked/stacked_2_withMobx/stacked2_BaseViewModel.dart';
 
 
 part 'stacked2_viewmodel.g.dart';

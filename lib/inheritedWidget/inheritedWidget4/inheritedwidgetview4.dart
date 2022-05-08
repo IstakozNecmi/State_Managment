@@ -1,7 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/changeNotifier/changeNotifier1_riverpod/changeNotifiermodel1.dart';
-import 'package:flutterhoooks/inheritedWidget/inheritedWidget4/inheritedwidgetmodel4.dart';
+import 'package:stateManangment/inheritedWidget/inheritedWidget4/inheritedwidgetmodel4.dart';
+
 
 class inheritedWidgetviewclass4 extends StatelessWidget {
   const inheritedWidgetviewclass4({Key? key}) : super(key: key);

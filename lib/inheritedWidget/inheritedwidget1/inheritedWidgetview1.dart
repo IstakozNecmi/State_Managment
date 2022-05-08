@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/inheritedWidget/inheritedwidget1/inheritedWidgetModel1.dart';
+import 'package:stateManangment/inheritedWidget/inheritedwidget1/inheritedWidgetModel1.dart';
+
 
 
 class inheritedwidgetviewclass11 extends StatelessWidget {

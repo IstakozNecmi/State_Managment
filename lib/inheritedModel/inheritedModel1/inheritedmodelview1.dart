@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/inheritedModel/inheritedModel1/inheritedmodelModel1.dart';
 import 'dart:developer' as devtools show log;
+
+import 'package:stateManangment/inheritedModel/inheritedModel1/inheritedmodelModel1.dart';
 
 
 

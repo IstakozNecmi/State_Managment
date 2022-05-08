@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutterhoooks/changeNotifier/changeNotifier1_riverpod/changeNotifiermodel1.dart';
+import 'package:stateManangment/changeNotifier/changeNotifier1_riverpod/changeNotifiermodel1.dart';
+
 
 
 class changenotifierclass1 extends ConsumerWidget {

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/MVC/mvc1/mvc1Controller.dart';
+import 'package:stateManangment/MVC/mvc1/mvc1Controller.dart';
+
 
 
 class mvc1Viewclass extends StatefulWidget {

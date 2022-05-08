@@ -4,10 +4,11 @@ import 'dart:io';
 import 'package:dio/dio.dart';
 import 'package:flutter/services.dart';
 
-import 'package:flutterhoooks/mobx/mobx2/mobx2model.dart';
+
 
 
 import 'package:mobx/mobx.dart';
+import 'package:stateManangment/mobx/mobx2/mobx2model.dart';
 part 'mobx2.g.dart';
 
 class myMobx2 = _myMobx2Base with _$myMobx2;

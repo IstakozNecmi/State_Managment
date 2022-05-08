@@ -2,7 +2,8 @@ import 'dart:async';
 import 'dart:convert';
 import 'package:http/http.dart' as http;
 import 'package:flutter/cupertino.dart';
-import 'package:flutterhoooks/Bloc_Cubit/blocWithStream/blocStreaModel.dart';
+import 'package:stateManangment/Bloc_Cubit/blocWithStream/blocStreaModel.dart';
+
 
 class myBloc{
 

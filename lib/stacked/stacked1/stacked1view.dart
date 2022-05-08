@@ -2,8 +2,9 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/stacked/stacked1/stackedmodel.dart';
+
 import 'package:stacked/stacked.dart';
+import 'package:stateManangment/stacked/stacked1/stackedmodel.dart';
 
 class stacked1viewclass extends StatelessWidget {
   @override

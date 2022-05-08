@@ -1,9 +1,9 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc3HydratedBlocOverrides/bloc/bloc_imports.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc3HydratedBlocOverrides/screen/home_screen.dart';
-import 'package:hydrated_bloc/hydrated_bloc.dart';
-import 'package:path_provider/path_provider.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc3HydratedBlocOverrides/bloc/counter/counter_bloc.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc3HydratedBlocOverrides/screen/home_screen.dart';
 
 
 

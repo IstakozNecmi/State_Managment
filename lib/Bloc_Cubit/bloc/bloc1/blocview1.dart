@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc1/home/home.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc1/services/boredService.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc1/services/connectivityService.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc1/home/home.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc1/services/boredService.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc1/services/connectivityService.dart';
 
 
 class blocviewclass1 extends StatelessWidget {

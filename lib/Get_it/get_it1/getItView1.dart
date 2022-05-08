@@ -1,7 +1,8 @@
 
 
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/Get_it/get_it1/locator1.dart';
+import 'package:stateManangment/Get_it/get_it1/locator1.dart';
+
 
 class getItViewClass extends StatefulWidget {
   getItViewClass({Key? key}) : super(key: key);

@@ -3,8 +3,9 @@ import 'dart:async';
 import 'package:bloc/bloc.dart';
 import 'package:connectivity_plus/connectivity_plus.dart';
 import 'package:equatable/equatable.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc1/services/boredService.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc1/services/connectivityService.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc1/services/boredService.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc1/services/connectivityService.dart';
+
 
 
 part 'home_event.dart';

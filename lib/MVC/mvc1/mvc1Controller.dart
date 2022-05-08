@@ -1,7 +1,8 @@
 
 
-import 'package:flutterhoooks/MVC/mvc1/mvc1Model.dart';
+
 import 'package:mvc_pattern/mvc_pattern.dart';
+import 'package:stateManangment/MVC/mvc1/mvc1Model.dart';
 
 //extend ControllerMVC demesekte çalışıyor
 class Controller extends ControllerMVC {

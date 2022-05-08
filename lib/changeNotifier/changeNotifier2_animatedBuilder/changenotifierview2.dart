@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/changeNotifier/changeNotifier2_animatedBuilder/changenotifiermodel2.dart';
+import 'package:stateManangment/changeNotifier/changeNotifier2_animatedBuilder/changenotifiermodel2.dart';
+
 
 
 

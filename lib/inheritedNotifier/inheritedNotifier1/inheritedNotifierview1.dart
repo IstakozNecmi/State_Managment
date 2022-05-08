@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/inheritedNotifier/inheritedNotifier1/inheritedNotifiermodel1.dart';
+import 'package:stateManangment/inheritedNotifier/inheritedNotifier1/inheritedNotifiermodel1.dart';
+
 
 class inheritedNotifierviewclass1 extends StatefulWidget {
   inheritedNotifierviewclass1({Key? key}) : super(key: key);

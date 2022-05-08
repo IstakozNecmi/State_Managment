@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterhoooks/Bloc_Cubit/cubit/cubit1/cubitmodel1.dart';
-import 'package:flutterhoooks/mobx/mobx1/counter1.dart';
+import 'package:stateManangment/Bloc_Cubit/cubit/cubit1/cubitmodel1.dart';
+
 
 class cubitviewclass1 extends StatelessWidget {
   const cubitviewclass1({Key? key}) : super(key: key);

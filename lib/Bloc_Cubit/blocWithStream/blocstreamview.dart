@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/Bloc_Cubit/blocWithStream/blocStreaModel.dart';
-import 'package:flutterhoooks/Bloc_Cubit/blocWithStream/blocStreamBloc.dart';
+import 'package:stateManangment/Bloc_Cubit/blocWithStream/blocStreaModel.dart';
+import 'package:stateManangment/Bloc_Cubit/blocWithStream/blocStreamBloc.dart';
+
 
 class blocStreamclass1 extends StatefulWidget {
   const blocStreamclass1({Key? key}) : super(key: key);

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:flutterhoooks/stacked/stacked_2_withMobx/stacked2_viewmodel.dart';
-import 'package:flutterhoooks/stacked/stacked_2_withMobx/stacked2basestate.dart';
-import 'package:flutterhoooks/stacked/stacked_2_withMobx/stacked2baseview.dart';
+import 'package:stateManangment/stacked/stacked_2_withMobx/stacked2_viewmodel.dart';
+import 'package:stateManangment/stacked/stacked_2_withMobx/stacked2basestate.dart';
+import 'package:stateManangment/stacked/stacked_2_withMobx/stacked2baseview.dart';
+
 
 class TestsView extends StatefulWidget {
   @override

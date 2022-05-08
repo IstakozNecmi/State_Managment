@@ -1,7 +1,8 @@
 
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc2/bloc/counter/counter_bloc.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc2/bloc/counter/counter_bloc.dart';
+
 
 class HomeScreenblocview2 extends StatelessWidget {
   const HomeScreenblocview2({Key? key}) : super(key: key);

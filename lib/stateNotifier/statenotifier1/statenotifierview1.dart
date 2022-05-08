@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutterhoooks/stateNotifier/statenotifier1/statenotifiermodel1.dart';
+import 'package:stateManangment/stateNotifier/statenotifier1/statenotifiermodel1.dart';
 
 class statenotifierview1 extends ConsumerWidget {
   const statenotifierview1({Key? key}): super(key: key);

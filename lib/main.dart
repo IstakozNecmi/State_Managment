@@ -1,46 +1,40 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/BlocOynatmaListesi/3/blocOynatmaListesiview3.dart';
 
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc1/blocview1.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc2/blocview2.dart';
-import 'package:flutterhoooks/Bloc_Cubit/bloc/bloc3HydratedBlocOverrides/blochyratedOverrieesview3.dart';
-import 'package:flutterhoooks/Bloc_Cubit/blocWithStream/blocstreamview.dart';
-
-
-import 'package:flutterhoooks/Bloc_Cubit/cubit/cubit1/cubitview1.dart';
-import 'package:flutterhoooks/Get_it/get_it1/getItView1.dart';
-import 'package:flutterhoooks/Get_it/get_it1/locator1.dart';
-import 'package:flutterhoooks/MVC/mvc1/mvc1View.dart';
-import 'package:flutterhoooks/MVVM/mvvm1ProviderChangeNotifier/mvvm1View.dart';
-import 'package:flutterhoooks/changeNotifier/changeNotifier1_riverpod/changenotifierview1.dart';
-
-
-import 'package:flutterhoooks/changeNotifier/changeNotifier2_animatedBuilder/changenotifierview2.dart';
-import 'package:flutterhoooks/flutter_hooks/fllutter_hooks1/flutter_hooks_view1.dart';
-import 'package:flutterhoooks/flutter_hooks/flutter_hooks2/flutter_hooksview2.dart';
-import 'package:flutterhoooks/flutter_hooks/flutter_hooks3/flutter_hooks_view3.dart';
-import 'package:flutterhoooks/inheritedModel/inheritedModel1/inheritedmodelview1.dart';
-import 'package:flutterhoooks/inheritedNotifier/inheritedNotifier1/inheritedNotifierview1.dart';
-import 'package:flutterhoooks/inheritedWidget/inheritedWidget2/inheritedwidgetview2.dart';
-import 'package:flutterhoooks/inheritedWidget/inheritedWidget4/inheritedwidgetview4.dart';
-import 'package:flutterhoooks/inheritedWidget/inheritedwidget1/inheritedWidgetview1.dart';
-import 'package:flutterhoooks/mobx/mobx1/mobxview1.dart';
-import 'package:flutterhoooks/mobx/mobx2/mobx2view.dart';
-import 'package:flutterhoooks/riverpod/riverpod1counter/riverpodview1.dart';
-import 'package:flutterhoooks/riverpod/riverpod2todo/riverpod2view.dart';
-import 'package:flutterhoooks/riverpod/riverpod3/riverpodview3.dart';
-import 'package:flutterhoooks/riverpod/riverpod4/riverpodview3.dart';
-import 'package:flutterhoooks/stacked/stacked1/stacked1view.dart';
-import 'package:flutterhoooks/stacked/stacked_2_withMobx/stacked2_viewmodel.dart';
-import 'package:flutterhoooks/stacked/stacked_2_withMobx/stacked2view.dart';
-
-import 'package:flutterhoooks/stateNotifier/statenotifier1/statenotifierview1.dart';
-import 'package:flutterhoooks/valueNotifier/valueNotifier1/valuenotifier1view.dart';
-import 'package:flutterhoooks/valueNotifier/valueNotifier2/valuenotifier2view.dart';
 import 'package:hydrated_bloc/hydrated_bloc.dart';
 import 'package:path_provider/path_provider.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/BlocOynatmaListesi/3/blocOynatmaListesiview3.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc1/blocview1.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc2/blocview2.dart';
+import 'package:stateManangment/Bloc_Cubit/bloc/bloc3HydratedBlocOverrides/blochyratedOverrieesview3.dart';
+import 'package:stateManangment/Bloc_Cubit/blocWithStream/blocstreamview.dart';
+import 'package:stateManangment/Bloc_Cubit/cubit/cubit1/cubitview1.dart';
+import 'package:stateManangment/Get_it/get_it1/getItView1.dart';
+import 'package:stateManangment/MVC/mvc1/mvc1View.dart';
+import 'package:stateManangment/MVVM/mvvm1ProviderChangeNotifier/mvvm1View.dart';
+import 'package:stateManangment/changeNotifier/changeNotifier1_riverpod/changenotifierview1.dart';
+import 'package:stateManangment/changeNotifier/changeNotifier2_animatedBuilder/changenotifierview2.dart';
+import 'package:stateManangment/flutter_hooks/fllutter_hooks1/flutter_hooks_view1.dart';
+import 'package:stateManangment/flutter_hooks/flutter_hooks2/flutter_hooksview2.dart';
+import 'package:stateManangment/flutter_hooks/flutter_hooks3/flutter_hooks_view3.dart';
+import 'package:stateManangment/inheritedModel/inheritedModel1/inheritedmodelview1.dart';
+import 'package:stateManangment/inheritedNotifier/inheritedNotifier1/inheritedNotifierview1.dart';
+import 'package:stateManangment/inheritedWidget/inheritedWidget2/inheritedwidgetview2.dart';
+import 'package:stateManangment/inheritedWidget/inheritedWidget4/inheritedwidgetview4.dart';
+import 'package:stateManangment/inheritedWidget/inheritedwidget1/inheritedWidgetview1.dart';
+import 'package:stateManangment/mobx/mobx1/mobxview1.dart';
+import 'package:stateManangment/mobx/mobx2/mobx2view.dart';
+import 'package:stateManangment/riverpod/riverpod1counter/riverpodview1.dart';
+import 'package:stateManangment/riverpod/riverpod2todo/riverpod2view.dart';
+import 'package:stateManangment/riverpod/riverpod3/riverpodview3.dart';
+import 'package:stateManangment/riverpod/riverpod4/riverpodview3.dart';
+import 'package:stateManangment/stacked/stacked1/stacked1view.dart';
+import 'package:stateManangment/stacked/stacked_2_withMobx/stacked2view.dart';
+import 'package:stateManangment/stateNotifier/statenotifier1/statenotifierview1.dart';
+import 'package:stateManangment/valueNotifier/valueNotifier1/valuenotifier1view.dart';
+import 'package:stateManangment/valueNotifier/valueNotifier2/valuenotifier2view.dart';
 
+import 'Get_it/get_it1/locator1.dart';
 import 'inheritedWidget/inheritedWidget3/inheritedWidgetview3.dart';
 
 void main()async{

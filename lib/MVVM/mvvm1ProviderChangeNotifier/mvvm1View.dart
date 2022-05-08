@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/MVVM/mvvm1ProviderChangeNotifier/mvvm1View_Model.dart';
+
 import 'package:provider/provider.dart';
+import 'package:stateManangment/MVVM/mvvm1ProviderChangeNotifier/mvvm1View_Model.dart';
 
 class mvvm1Viewclass extends StatefulWidget {
   mvvm1Viewclass({Key? key}) : super(key: key);

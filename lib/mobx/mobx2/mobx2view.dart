@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:flutterhoooks/mobx/mobx2/mobx2.dart';
+import 'package:stateManangment/mobx/mobx2/mobx2.dart';
+
 
 
 class mobx2viewclass extends StatelessWidget {

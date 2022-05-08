@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'package:flutterhoooks/mobx/mobx1/counter1.dart';
-import 'package:flutterhoooks/mobx/mobx1/mobx1newpage.dart';
+
 import 'package:mobx/mobx.dart';
+import 'package:stateManangment/mobx/mobx1/counter1.dart';
+import 'package:stateManangment/mobx/mobx1/mobx1newpage.dart';
 
 class mobxviewclass1 extends StatefulWidget {
   const mobxviewclass1({Key? key}) : super(key: key);

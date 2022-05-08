@@ -1,6 +1,7 @@
 
 import 'package:flutter/material.dart';
-import 'package:flutterhoooks/MVVM/mvvm1ProviderChangeNotifier/mvvm1Model.dart';
+import 'package:stateManangment/MVVM/mvvm1ProviderChangeNotifier/mvvm1Model.dart';
+
 
 
 class ViewModel extends ChangeNotifier {

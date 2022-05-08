@@ -9,6 +9,8 @@ import 'package:flutterhoooks/Bloc_Cubit/blocWithStream/blocstreamview.dart';
 
 
 import 'package:flutterhoooks/Bloc_Cubit/cubit/cubit1/cubitview1.dart';
+import 'package:flutterhoooks/Get_it/get_it1/getItView1.dart';
+import 'package:flutterhoooks/Get_it/get_it1/locator1.dart';
 import 'package:flutterhoooks/MVC/mvc1/mvc1View.dart';
 import 'package:flutterhoooks/MVVM/mvvm1ProviderChangeNotifier/mvvm1View.dart';
 import 'package:flutterhoooks/changeNotifier/changeNotifier1_riverpod/changenotifierview1.dart';
@@ -28,6 +30,7 @@ import 'package:flutterhoooks/mobx/mobx2/mobx2view.dart';
 import 'package:flutterhoooks/riverpod/riverpod1counter/riverpodview1.dart';
 import 'package:flutterhoooks/riverpod/riverpod2todo/riverpod2view.dart';
 import 'package:flutterhoooks/riverpod/riverpod3/riverpodview3.dart';
+import 'package:flutterhoooks/riverpod/riverpod4/riverpodview3.dart';
 import 'package:flutterhoooks/stacked/stacked1/stacked1view.dart';
 import 'package:flutterhoooks/stacked/stacked_2_withMobx/stacked2_viewmodel.dart';
 import 'package:flutterhoooks/stacked/stacked_2_withMobx/stacked2view.dart';
@@ -45,6 +48,8 @@ void main()async{
 
   final storage = await HydratedStorage.build(
       storageDirectory: await getApplicationDocumentsDirectory());
+
+  setUp();
       
   HydratedBlocOverrides.runZoned(
     () => runApp(MyApp()),
@@ -99,10 +104,12 @@ class Home extends StatelessWidget {
              navigasyonGo(context,riverpodview1(),"riverpod1"),
              navigasyonGo(context,riverpodtodo2view(),"riverpod2todo"),
              navigasyonGo(context,riverpodview3(),"riverpod3"),
+             navigasyonGo(context,HomeView(),"riverpod4"),
              navigasyonGo(context,stacked1viewclass(),"stacked1"),
              navigasyonGo(context,TestsView(),"stacked2"),
              navigasyonGo(context,mvc1Viewclass(),"MVC1"),
              navigasyonGo(context,mvvm1Viewclass(),"MVVM1"),
+             navigasyonGo(context,getItViewClass(),"Get_It1"),
              
             
            

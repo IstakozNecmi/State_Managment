@@ -48,6 +48,7 @@ dependencies:
   uuid: ^3.0.6
   mvc_pattern: ^8.10.1+1
   provider: ^6.0.2
+  get_it: ^7.2.0
 
 dev_dependencies:
   flutter_lints: ^1.0.0
